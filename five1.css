@@ -1,0 +1,44 @@
+body {
+    background-color: yellow;
+    
+}
+
+.container {
+     width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+    align-content: center;
+}
+
+
+.flex-box {
+    width: 160px;
+    height: 160px;
+    background: green;
+    
+}
+
+.box {
+    transition: all 4s linear;
+}
+
+.box:hover {
+    width: 500px;
+}
+
+.box1 {
+    transition: all 4s linear;
+}
+
+.box1:hover {
+    width: 400px;
+    height: 400px;
+}
+h1 {
+    margin-left: calc(50vw - 300px);
+    width: 600px;
+    height: 60px;
+    position: relative;
+    left: 90px;
+} 

@@ -1,0 +1,178 @@
+body {
+    background-color: yellow;
+
+}
+.container1 {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+.container2 {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.container3 {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.container4 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.box1 {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    transform: skewX(20deg);
+    animation: b1 4s linear infinite;
+
+}
+
+@keyframes b1 {
+    0% {
+        transform: skewX(-20deg);
+    }
+
+    50% {
+        transform: skewX(20deg);
+    }
+
+    100% {
+        transform: skewX(-20deg);
+    }
+}
+
+
+.box2 {
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    animation: b2 4s linear infinite;
+}
+
+@keyframes b2 {
+    0% {
+        transform: skewY(-20deg);
+    }
+
+    50% {
+        transform: skewY(20deg);
+    }
+
+    100% {
+        transform: skewY(-20deg);
+    }
+}
+
+.box3 {
+    width: 90px;
+    height: 90px;
+    background-color: blueviolet;
+    animation: b3 3s infinite;
+    animation-timing-function: cubic-bezier(0.2, 0.64, 0.43, 1.02);
+    ;
+
+}
+
+@keyframes b3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.box4 {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    animation: b4 4s linear infinite;
+}
+
+@keyframes b4 {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(70deg);
+    }
+
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+.box5 {
+    width: 90px;
+    height: 90px;
+    background-color: brown;
+    animation: b5 4s linear infinite;
+}
+
+@keyframes b5 {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(70deg);
+    }
+
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.box6 {
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    animation: b6 5s linear infinite;
+}
+
+@keyframes b6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(110deg);
+    }
+
+
+    100% {
+        transform: rotate(0);
+    }
+}
+h1 {
+    margin-left: calc(50vw - 300px);
+    width: 600px;
+    height: 60px;
+    position: relative;
+    left: 90px;
+    
+}
